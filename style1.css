@@ -1,0 +1,89 @@
+
+/* =============================index1.html======================== */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #8bbfcb;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+.contact form{
+    width: 50%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 40px;
+    background-image: url('Mesimage/LOGO2.jpg');
+    background-repeat: no-repeat;
+}
+input, textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    border: 1px solid blue;
+    outline: none;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: bold;
+}
+/* .contact__input{
+    width: 100%;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-semi);
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 0.08rem solid var(--second-color);
+    outline: none;
+    margin-bottom: var(--mb-4);
+} */
+/* .contact__button{
+    display: block;
+    border: none;
+    outline: none;
+    font-size: var(--normal-font-size);
+    cursor: pointer;
+    margin-left: auto;
+} */
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
